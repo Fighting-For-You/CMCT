@@ -1,15 +1,14 @@
 <template>
-  <div class=""></div>
+  <div class="LeftMenu">
+    <img src="../assets/leftMenu.jpg" alt />
+  </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
 
 export default Vue.extend({
-  name: "HelloWorld",
-  props: {
-    msg: String
-  }
+  name: "LeftMenu"
 });
 </script>
 
@@ -28,5 +27,9 @@ li {
 }
 a {
   color: #42b983;
+}
+.LeftMenu {
+  img {
+  }
 }
 </style>

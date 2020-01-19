@@ -1,5 +1,7 @@
 <template>
-  <div class=""></div>
+  <div class="header">
+    <img src="../assets/header.jpg" alt />
+  </div>
 </template>
 
 <script lang="ts">
@@ -28,5 +30,11 @@ li {
 }
 a {
   color: #42b983;
+}
+.header {
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 </style>
